@@ -1,0 +1,323 @@
+body {
+	background:url('../images/school.png');
+}
+
+h1 {
+	text-align: center;
+	color: #00C;
+}
+
+h2 {
+	text-align:center;
+}
+
+#wrapper {
+	width:90%;
+	margin:0 auto;
+	background:url('../images/halftone.png');
+}
+
+#wrapper2 {
+	width:99%;
+	margin:0 auto;
+}
+
+
+
+#logo {
+	width:40%;
+	float:left;
+}
+
+#search {
+	margin-top:2.5%;
+	margin-left:10%;
+	width:45%;
+	float:left;
+}
+
+
+nav ul {
+	margin:0%;
+	padding:0%;
+}
+
+
+nav ul li {
+	background-color:blue;
+	float:left;
+	position:relative;
+	border:solid 0.1em white;
+	list-style-type:none;
+	padding-left:0.08em;
+}
+
+nav ul ul {
+	position:absolute;
+	visibility:hidden;
+}
+
+nav ul li:hover ul {
+	visibility:visible;
+}
+
+nav ul li a:hover {
+	background:green;
+	color:white;
+}
+
+nav ul li a:visited {
+	background:grey;
+}
+
+nav ul li ul li {
+	background-color:black;
+	border:solid 0.1em blue;
+	border-radius:0.2em;
+}
+
+nav ul li ul li a:hover {
+	background-color:green;
+}
+
+
+nav ul li a {
+	font-family:Comic Sans MS, cursive, sans-serif;
+	text-decoration:none;
+	display:block;
+	width:10.5em;
+	height:2em;
+	text-align:center;
+	border-bottom:solid 0.2em white;
+	color:white;
+}
+
+#clearfix {
+	clear:left;
+}
+
+#welcome {
+	margin-left:0.3%;
+	width:50%;
+	float:left;
+	
+}
+
+#welcome h1 {
+	text-align:center;
+}
+
+#welcome p {
+	border:solid blue 0.2em;
+}
+
+#admin form {
+	margin-left:8%;
+	width:40%;
+	float:left;	
+}
+
+footer {
+	clear:left;
+	text-align:center;
+	background:blue;
+	color:white;
+}
+
+#MainImg {
+	margin-top:0.2%;
+}
+#admin h1 {
+	text-align:center;
+}
+
+label {
+float:left;
+width:150px;
+text-align:right;
+padding-right:12px;
+margin-top:12px;
+clear:left;
+
+}
+input  {
+margin-top:12px;
+}
+
+
+input[type="submit"] {
+	margin-left:160px;
+}
+
+form {
+	border:solid blue 0.2em;
+	padding-bottom:10%;
+	width:40%;
+	margin-left:5%;
+	background:white;
+	margin-bottom:5%;
+}
+
+
+
+#search form {
+	border:solid blue 0.2em;
+	padding-bottom:4%;
+	width:70%;
+}
+
+#sub input[type="submit"]{
+margin-left:160px;
+}
+
+#form {
+	border:solid blue 0.2em;
+	width:50%;
+	margin-bottom:2em;
+}
+
+#contact_details {
+	margin-left:7em;
+}
+
+
+nav {
+	margin-left:5%;
+}
+
+.aTag {
+	text-decoration:none;
+	color:black;
+	margin-left:6%;
+}
+
+.aTag:hover {
+	color:grey;
+}
+
+#edit_page_form {
+	margin-left:5%;
+	width:50%;
+	margin-bottom:5%;
+}
+
+#edit_page_form  input[type="submit"] {
+	margin-left:24%;
+}
+
+#upload {
+	margin-left:5%;
+	width:50%;
+	margin-bottom:5%;
+	border:none;
+}
+
+#upload input[type="submit"] {
+	margin-left:9%;
+}
+
+#adminul ul {
+	margin:0%;
+	padding:0%;
+}
+
+
+#adminul ul li {
+	list-style-type:none;
+}
+
+#adminul ul li a {
+	color: #00F;
+	margin-left: 3em;
+	text-decoration: none;
+}
+
+
+#add_teacher form {
+	padding-bottom:10%;
+	margin-left:5%;
+	background:yellow;
+	color:green;
+}
+
+table, tr, td, tr { border-collapse: collapse; vertical-align: top; text-align: left;
+  font: 13px/15px Verdana,Arial,Helvetica,sans-serif; }
+  
+table.bordered tr th, table.bordered tr td { border: 1px solid #000000; } pagination .selected{ font-weight:bold; color:#8D0D19;}
+
+#tr {
+	background:white;
+}
+
+#gallery {
+	margin-left:6%;
+}
+#calender {
+	margin-left:5%;
+	float:left;
+	width:60%;
+	
+
+}
+
+#eventN {
+	width:30%;
+	float:left;
+	text-align:center;
+	background:blue;
+	color:green;
+	padding-bottom:2.5%;
+	padding-top:2.5%;
+	font-family:Comic Sans MS, cursive, sans-serif;
+	font-size:1.2em;
+	border-top:solid white 4px;
+}
+
+#eventD {
+	width:45%;
+	float:left;
+	text-align:center;
+	background:white;
+	color:green;
+	padding-bottom:2.5%;
+	padding-top:2.5%;
+	font-family:Comic Sans MS, cursive, sans-serif;
+	font-size:1.2em;
+}
+
+#Date {
+	width:25%;
+	float:left;
+	text-align:center;
+	background:green;
+	padding-bottom:2.5%;
+	padding-top:2.5%;
+	font-family:Comic Sans MS, cursive, sans-serif;
+	font-size:1.2em;
+}
+
+#eventInfo {
+	width:30%;
+	float:right;
+	border:solid blue 4px;
+	margin-right:2%;
+	position:relative;
+}
+
+
+#eventInfo p {
+	margin-left:1%;
+}
+
+#teacherInfo {
+	background:black;
+	color:green;
+	width:30%;
+	border-radius:3%;
+	margin-left:5%;
+}
+
+#calender h2 {
+	text-align:left;
+	margin-bottom:-4%;
+}
